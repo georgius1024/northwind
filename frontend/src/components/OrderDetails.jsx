@@ -27,7 +27,7 @@ function OrderView(order, items) {
   ].filter(e => !!e).join(', ')
   return (
     <dl className="row">
-      <dt className="col-sm-3">Order id:</dt>
+      <dt className="col-sm-3">Order #:</dt>
       <dd className="col-sm-9">{order.id}</dd>
       <dt className="col-sm-3">Date:</dt>
       <dd className="col-sm-9">{dayjs(order.order_date).format('DD.MM.YYYY HH:mm')}</dd>

@@ -13,7 +13,6 @@ function Orders(props) {
         {row.id}
       </td>
       <td>{dayjs(row.order_date).format('DD.MM.YYYY HH:mm')}</td>
-      <td>{row.status_name}</td>
       <td>{row.customer_name}</td>
     </tr>
   )
@@ -31,9 +30,8 @@ function Orders(props) {
             <tr>
               <th></th>
               <th scope="col">Order #</th>
-              <th scope="col">Order date</th>
-              <th scope="col">Order status</th>
-              <th scope="col">Client name</th>
+              <th scope="col">Date</th>
+              <th scope="col">Customer</th>
             </tr>
           </thead>
           <tbody>
