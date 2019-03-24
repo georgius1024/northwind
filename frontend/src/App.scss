@@ -1,0 +1,12 @@
+.container-fluid {
+  min-height: 100vh;
+}
+
+.container-fluid .full-height {
+  min-height: 100vh;
+  display: flex;
+}
+
+#main-v-splitter {
+  flex-grow: 1;
+}

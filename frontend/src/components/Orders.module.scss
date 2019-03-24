@@ -1,0 +1,30 @@
+.panel {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .table-wrapper {
+    height: calc(100vh - 120px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    .orders {
+      width: 100%;
+      tr:hover {
+        cursor: pointer;
+      }
+      tr.selected {
+        background: rgba(0, 0, 0, 0.3)
+      }
+    }
+  }
+  .footer {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    .status-snippet {
+      margin-left: 12px;
+      display: flex;
+      padding: 6px 0; 
+    }
+  }
+  
+}

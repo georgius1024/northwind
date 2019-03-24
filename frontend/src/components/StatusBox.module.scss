@@ -1,0 +1,18 @@
+.box {
+  width: 24px;
+  height: 24px;
+  background: rgba(0, 0, 0, 0.3);
+  margin-right: 12px;
+}
+
+.status-new {
+  background: red;
+}
+
+.status-closed {
+  background: green;
+}
+
+.status-shipped {
+  background: blue;
+}

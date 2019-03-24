@@ -1,0 +1,17 @@
+.gutter {
+  background-repeat: no-repeat;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.gutter:hover {
+  background-color: rgba(0, 0, 0, 0.1)
+}
+.gutter-vertical {
+  cursor: row-resize;
+  background-image: url('../assets/grip-horizontal.svg');
+  background-position-x: center;
+}
+.gutter-horizontal {
+  cursor: col-resize;
+  background-image: url('../assets/grip-vertical.svg');
+  background-position-y: center;
+}
